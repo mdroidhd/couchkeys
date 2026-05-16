@@ -28,3 +28,10 @@ class SpaceAction extends KeyboardAction {
   @override
   String toString() => 'SpaceAction';
 }
+
+/// Represents a key press that triggers a submit action.
+/// This action can be used for Enter/Return keys or custom submit buttons.
+class SubmitAction extends KeyboardAction {
+  @override
+  String toString() => 'SubmitAction';
+}
